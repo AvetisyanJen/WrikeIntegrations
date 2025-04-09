@@ -11,3 +11,7 @@ Before running the project, make sure you have the following installed on your s
 ## Setup
 
 1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/AvetisyanJen/WrikeIntegrations.git
+   cd WrikeIntegrations
+  
