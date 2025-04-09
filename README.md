@@ -14,4 +14,30 @@ Before running the project, make sure you have the following installed on your s
    ```bash
    git clone https://github.com/AvetisyanJen/WrikeIntegrations.git
    cd WrikeIntegrations
+2. **Install dependencies:**
+   To install project dependencies, run the following command:
+   `npm install`
+   
+   Additionally, install nodemon for automatic reloading during development:
+   
+   `npm i nodemon`
+3. **Create a .env file:**
+   In the root directory of the project, create a .env file to store your sensitive API credentials:
+   `WRIKE_TOKEN=your_wrike_api_token`
+   
+   Replace your_wrike_api_token with your actual Wrike API token.
+
+4. **Add tasks.json to .gitignore:**
+
+##Running the Project
+To run the project and generate the tasks.json file, follow these steps:
+##Start the development server with Nodemon:
+
+The easiest way to run the project in development mode with automatic restarts on changes is by using Nodemon. Run the following command:
+``nodemon``
+
+The tasks will be fetched from the Wrike API, mapped, and saved to tasks.json.
+
+After running the project, you should see the tasks.json file generated in your project root. This file will contain the tasks retrieved from the Wrike API.
+   
   
