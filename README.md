@@ -29,9 +29,9 @@ Before running the project, make sure you have the following installed on your s
 
 4. **Add tasks.json to .gitignore:**
 
-##Running the Project
+ ## Running the Project
 To run the project and generate the tasks.json file, follow these steps:
-##Start the development server with Nodemon:
+ ## Start the development server with Nodemon:
 
 The easiest way to run the project in development mode with automatic restarts on changes is by using Nodemon. Run the following command:
 ``nodemon``
